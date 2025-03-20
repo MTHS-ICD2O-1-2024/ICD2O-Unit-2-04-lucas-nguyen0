@@ -4,9 +4,19 @@
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
+"use strict"
+
 /**
- * Displays an alert with the message "Hello, World!"
+ * Calculates area of a triangle
  */
-function myButtonClicked() {
-  alert("Hello, World!")
+function enterClicked() {
+  // input
+  const heightOfTriangle = parseFloat(document.getElementById('height').value)
+  const baseOfTriangle = parseFloat(document.getElementById("base").value)
+
+  // process
+  const areaOfTriangle = heightOfTriangle * baseOfTriangle / 2
+
+  // output
+  document.getElementById('answer').innerHTML = 'Area is ' + areaOfTriangle + ' cm².'
 }
