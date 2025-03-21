@@ -1,7 +1,7 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2025 Lucas Nguyen All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Lucas Nguyen
+// Created on: Maer 2025
 // This file contains the JS functions for index.html
 
 "use strict"
